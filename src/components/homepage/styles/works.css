@@ -2,6 +2,7 @@
 
 .works-body {
 	margin-bottom: 10px;
+	width: 30%;
 }
 
 .work {
@@ -36,6 +37,7 @@
 
 .work-duration {
 	position: absolute;
+	right: 45%;
 	width: 350px;
 	font-size: 12px;
 	padding-top: 20px;

@@ -43,8 +43,7 @@
 
 .homepage-image-wrapper {
 	overflow: hidden;
-	border-radius: 10%;
-	transform: rotate(3deg);
+	border-radius: 5%;
 }
 
 .homepage-image-wrapper img {
@@ -88,10 +87,6 @@
 	padding-bottom: 5px;
 }
 
-.homepage-works {
-	flex-basis: 600px;
-	padding-top: 30px;
-}
 
 @media (max-width: 1024px) {
 	.homepage-first-area {
@@ -140,11 +135,5 @@
 
 	.homepage-articles {
 		flex-basis: auto;
-	}
-
-	.homepage-works {
-		flex-basis: auto;
-		margin-left: -25px;
-		margin-right: -25px;
 	}
 }

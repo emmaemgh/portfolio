@@ -44,7 +44,7 @@
 }
 
 .about-image-container {
-	width: 370px;
+	width: 300px;
 }
 
 .about-image-wrapper {
@@ -52,21 +52,18 @@
 	overflow: hidden;
 	width: 100%;
 	border-radius: 10%;
-	transform: rotate(3deg);
 }
 
 .about-image-wrapper img {
 	display: block;
 	width: 100%;
+	opacity: 0.9;
 }
 
-.about-socials {
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
-
-.about-socials-mobile {
-	display: none;
+.about-works {
+	flex-basis: 600px;
+	padding-top: 30px;
+	align-content: center;
 }
 
 @media (max-width: 1024px) {
@@ -96,13 +93,11 @@
 		padding-bottom: 40px;
 	}
 
-	.about-socials {
-		display: none;
-	}
 
-	.about-socials-mobile {
-		padding-top: 30px;
-		display: flex;
+	.about-works {
+		flex-basis: auto;
+		margin-left: -25px;
+		margin-right: -25px;
 	}
 }
 
