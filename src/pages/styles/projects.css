@@ -22,6 +22,24 @@
 	padding-top: 120px;
 }
 
+.projects-socials {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	padding-top: 30px;
+}
+
+.projects-social-icon {
+	padding-right: 20px;
+	font-size: 25px;
+	transition: color 0.2s ease-in-out;
+	color: var(--secondary-color);
+}
+
+.projects-social-icon:hover {
+	color: var(--primary-color);
+}
+
 @media (max-width: 600px) {
 	.projects-container {
 		padding-top: 60px;

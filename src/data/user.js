@@ -8,8 +8,8 @@ const INFO = {
 
 	socials: {
 		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
+		github: "https://github.com/emmaemgh",
+		linkedin: "https://www.linkedin.com/in/emmagholt/",
 		instagram: "https://instagram.com/",
 		stackoverflow: "https://stackoverflow.com/",
 		facebook: "https://facebook.com/",
@@ -29,48 +29,22 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "My High School Portfolio",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"Here is a Github Pages I made in high school documenting some projects I did. I used a lot of Processing for 3D visualizations, as well as trying simple wep pages",
+			logo: "../github.png",
+			linkText: "View Portfolio",
+			link: "https://emmaemgh.github.io/high-school-CS-portfolio/",
+			link2: "https://github.com/emmaemgh/high-school-CS-portfolio",
 		},
-
 		{
-			title: "Project 2",
+			title: "Surf Forecasting Website",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 3",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 4",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"I've contributed mostly front-end features to this open source web application that provides surf forecast data to users.",
+			logo: "../loading.gif",
+			linkText: "View twosurf website",
+			link: "https://twosurf.com/home",
+			link2: "https://github.com/smmuirhead100/surf-detector",
 		},
 	],
 };

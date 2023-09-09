@@ -1,5 +1,11 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
+import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+	faGithub,
+	faLinkedin
+} from "@fortawesome/free-brands-svg-icons";
 
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
@@ -39,21 +45,46 @@ const Projects = () => {
 					</div>
 					<div className="projects-container">
 						<div className="title projects-title">
-							Things I’ve made trying to put my dent in the
-							universe.
+							Some Technical Projects Over The Last 8 Years Of Me Coding!
 						</div>
 
 						<div className="subtitle projects-subtitle">
-							I've worked on a variety of projects over the years
-							and I'm proud of the progress I've made. Many of
-							these projects are open-source and available for
-							others to explore and contribute to. If you're
-							interested in any of the projects I've worked on,
-							please feel free to check out the code and suggest
-							any improvements or enhancements you might have in
-							mind. Collaborating with others is a great way to
-							learn and grow, and I'm always open to new ideas and
-							feedback.
+							Here are some of my projects I've worked on over the years. 
+							Please reach out if you have any comments, questions, or suggestions.
+							To look at the code for any of these, go to my github! 
+						</div>
+
+						<div className="projects-socials">
+							<a
+								href={INFO.socials.github}
+								target="_blank"
+								rel="noreferrer"
+							>
+								<FontAwesomeIcon
+									icon={faGithub}
+									className="projects-social-icon"
+								/>
+							</a>
+							<a
+								href={INFO.socials.linkedin}
+								target="_blank"
+								rel="noreferrer"
+							>
+								<FontAwesomeIcon
+									icon={faLinkedin}
+									className="projects-social-icon"
+								/>
+							</a>
+							<a
+								href={`mailto:${INFO.main.email}`}
+								target="_blank"
+								rel="noreferrer"
+							>
+								<FontAwesomeIcon
+									icon={faMailBulk}
+									className="projects-social-icon"
+								/>
+							</a>
 						</div>
 
 						<div className="projects-list">
